@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="445px"
+        android:src="@mipmap/product_six"
+        android:scaleType="fitXY"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_home_search"
+        android:layout_width="match_parent"
+        android:layout_height="55px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="18px"
+        android:gravity="center"
+        android:background="@drawable/shape_searchborder2">
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="24px"
+            android:layout_height="24px"
+            android:layout_marginBottom="14px"
+            android:layout_marginTop="14px"
+            android:src="@mipmap/selected_search"
+            android:layout_marginRight="18px"/>
+
+        <TextView
+            android:id="@+id/edit_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_search"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="输入我想去的境外城市名称"
+            android:textSize="10sp"
+            android:visibility="visible" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    
+    
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.zhy.autolayout.AutoFrameLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>
