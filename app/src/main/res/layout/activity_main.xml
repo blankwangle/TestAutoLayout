@@ -9,7 +9,7 @@
         android:src="@mipmap/product_six"
         android:scaleType="fitXY"/>
 
-    <com.zhy.autolayout.AutoRelativeLayout
+    <RelativeLayout
         android:id="@+id/rl_home_search"
         android:layout_width="match_parent"
         android:layout_height="55px"
@@ -42,7 +42,7 @@
             android:textSize="10sp"
             android:visibility="visible" />
 
-    </com.zhy.autolayout.AutoRelativeLayout>
+    </RelativeLayout>
     
     
     <com.zhy.autolayout.AutoLinearLayout
